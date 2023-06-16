@@ -1,0 +1,26 @@
+{
+	"name": "gitbook-template",
+	"version": "1.0.0",
+	"description": "gitbook-template",
+	"main": "index.js",
+	"scripts": {
+		"start": "gitbook serve  --port 4000",
+		"build": "gitbook build ./ dist"
+	},
+	"keywords": [
+		"gitbook"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+		"gitbook-plugin-anchors": "^0.7.1",
+		"gitbook-plugin-code": "^0.1.0",
+		"gitbook-plugin-expandable-chapters": "^0.2.0",
+		"gitbook-plugin-favicon": "0.0.2",
+		"gitbook-plugin-hide-element": "0.0.4",
+		"gitbook-plugin-prism": "^2.4.0",
+		"gitbook-plugin-search-pro": "^2.0.2",
+		"gitbook-plugin-splitter": "0.0.8"
+	}
+}
